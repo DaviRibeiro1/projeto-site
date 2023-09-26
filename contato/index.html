@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/trabalho1/contato/contatos.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+    <nav>
+        <ul>
+            <li><a href="/trabalho1/index.html">Curriculo</a></li>
+            <li><a href="/trabalho1/galeria/index.html">Galeria</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+    <h1>Trabalhe Conosco</h1>
+	<h2>Cadastre seu Curriculo</h2>
+	
+    <form>
+        <!-- Dados pessoais -->
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required placeholder="Informe seu nome"><br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required placeholder="Informe seu email"><br><br>
+
+		<label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" required placeholder="Informe sua idade"><br><br>
+		
+        <fieldset>
+            <legend>Contato</legend>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required placeholder="Informe seu telefone"><br><br>
+
+            <label for="celular">Celular:</label>
+            <input type="tel" id="celular" name="celular" placeholder="Informe seu celular"><br><br>
+        </fieldset>
+
+        <!-- Campos de Endereço -->
+        <fieldset>
+            <legend>Endereço</legend>
+
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" name="cep" required placeholder="Informe seu CEP"><br><br>
+
+            <label for="tipo_logradouro">Tipo de Logradouro:</label>
+            <select id="tipo_logradouro" name="tipo_logradouro" required>
+				<option value="Avenida">Alameda</option>
+				<option value="Avenida">Sítio</option>
+				<option value="Avenida">Travessa</option>
+                <option value="Avenida">Avenida</option>
+                <option value="Rua">Rua</option>
+            </select><br><br>
+
+            <label for="logradouro">Logradouro:</label>
+            <input type="text" id="logradouro" name="logradouro" required placeholder="Informe seu logradouro"><br><br>
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" required placeholder="Informe sua Cidade"><br><br>
+
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" name="estado" required placeholder="Informe seu Estado"><br><br>
+        </fieldset>
+		
+		<label>Escolha uma área de atuação:</label><br>
+        <input type="radio" id="radio1" name="radio" value="Opção 1">
+        <label for="radio1">Área Administrativa</label><br>
+
+        <input type="radio" id="radio2" name="radio" value="Opção 2">
+        <label for="radio2">Tecnologia da Informação</label><br>
+
+        <input type="radio" id="radio3" name="radio" value="Opção 3">
+        <label for="radio3">Área Operacional</label><br><br>
+		
+		<!-- Descrição detalhada do interesse -->
+        <label for="descricao_interesse">Descrição detalhada do interesse:</label>
+        <textarea id="descricao_interesse" name="descricao_interesse" rows="6" cols="100" placeholder="Informe detalhadamente seu interesse"></textarea><br><br>
+
+        <!-- Outros -->
+        <label>Idiomas:</label><br>
+        <input type="checkbox" id="checkbox1" name="checkbox1" value="Opção 1">
+        <label for="checkbox1">Português (nativo)</label><br>
+
+        <input type="checkbox" id="checkbox2" name="checkbox2" value="Opção 2">
+        <label for="checkbox2">Inglês</label><br>
+
+        <input type="checkbox" id="checkbox3" name="checkbox3" value="Opção 3">
+        <label for="checkbox3">Espanhol</label><br>
+
+        <input type="checkbox" id="checkbox4" name="checkbox4" value="Opção 4">
+        <label for="checkbox4">Outros</label><br><br>
+		
+		<input type="text" id="Outros" name="Outros" required placeholder="Outros"><br><br>
+		
+		<!-- Formações Acadêmicas -->
+        <label for="formacoes_academicas">Formações Acadêmicas:</label>
+        <textarea id="formacoes_academicas" name="formacoes_academicas" rows="10" cols="100" required placeholder="Informe sua formação academica"></textarea><br><br>
+
+        <!-- Outros Conhecimentos -->
+        <label for="outros_conhecimentos">Outros Conhecimentos:</label>
+        <textarea id="outros_conhecimentos" name="outros_conhecimentos" rows="8" cols="100" placeholder="Informe outros conhecimentos"></textarea><br><br>
+
+
+<!-- Experiências Profissionais -->
+        <fieldset>
+            <legend>Experiências Profissionais</legend>
+            <!-- Experiência 1 -->
+            <label for="empresa1">Nome da Empresa:</label>
+            <input type="text" id="empresa1" name="empresa1" required placeholder="Informe a empresa"><br><br>
+
+            <label for="cargo1">Cargo:</label>
+            <input type="text" id="cargo1" name="cargo1" required placeholder="Informe o cargo"><br><br>
+
+            <label for="data_inicio1">Data de Início:</label>
+            <input type="date" id="data_inicio1" name="data_inicio1" required><br><br>
+
+            <label for="data_termino1">Data de Término:</label>
+            <input type="date" id="data_termino1" name="data_termino1"><br><br>
+			
+			<label for="Principais_Atribuições">Principais Atribuições:</label>
+		<textarea id="Principais_Atribuições" name="Principais Atribuições" rows="5" cols="100" placeholder="Informe suas principais atribuições"></textarea><br><br>
+
+            <!-- Experiência 2 -->
+            <label for="empresa2">Nome da Empresa:</label>
+            <input type="text" id="empresa2" name="empresa2" placeholder="Informe a empresa"><br><br>
+
+            <label for="cargo2">Cargo:</label>
+            <input type="text" id="cargo2" name="cargo2" placeholder="Informe o cargo"><br><br>
+
+            <label for="data_inicio2">Data de Início:</label>
+            <input type="date" id="data_inicio2" name="data_inicio2"><br><br>
+
+            <label for="data_termino2">Data de Término:</label>
+            <input type="date" id="data_termino2" name="data_termino2"><br><br>
+			
+			<label for="Principais_Atribuições">Principais Atribuições:</label>
+		<textarea id="Principais_Atribuições" name="Principais Atribuições" rows="5" cols="100" placeholder="Informe suas principais atribuições"></textarea><br><br>
+
+            <!-- Experiência 3 -->
+            <label for="empresa3">Nome da Empresa:</label>
+            <input type="text" id="empresa3" name="empresa3" placeholder="Informe a empresa"><br><br>
+
+            <label for="cargo3">Cargo:</label>
+            <input type="text" id="cargo3" name="cargo3" placeholder="Informe o cargo"><br><br>
+
+            <label for="data_inicio3">Data de Início:</label>
+            <input type="date" id="data_inicio3" name="data_inicio3"><br><br>
+
+            <label for="data_termino3">Data de Término:</label>
+            <input type="date" id="data_termino3" name="data_termino3"><br><br>
+			
+			<label for="Principais_Atribuições">Principais Atribuições:</label>
+		<textarea id="Principais_Atribuições" name="Principais Atribuições" rows="5" cols="100" placeholder="Informe suas principais atribuições"></textarea><br><br>
+        </fieldset>
+        <br>
+        <!-- Botão de Envio -->
+        <input type="submit" value="Enviar" class="botao">
+    </form>
+    </main>
+    <footer>
+        <p>@vaicorinthians</p>
+    </footer>
+</body>
+</html>

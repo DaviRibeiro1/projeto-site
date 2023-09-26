@@ -1,0 +1,48 @@
+/* Estilos para o menu */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Cor de fundo do menu */
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px; /* Espaçamento entre os itens do menu */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Cor do texto do menu */
+    font-weight: bold;
+    padding: 0 20px; /* Espaçamento interno dos itens do menu */
+}
+
+nav a:hover {
+    background-color: #555; /* Cor de fundo ao passar o mouse sobre os itens do menu */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+input {
+    border-radius: 10px;
+    text-align: center;
+}
+
+.botao {
+    height: 35px;
+    width: 90px;
+}
+
+.botao:hover {
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+}
