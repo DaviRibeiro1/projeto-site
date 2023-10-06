@@ -1,80 +1,76 @@
-/* Bloco 1 - Estilos para o menu (mantidos como estão) */
-nav ul {
-    list-style: none;
+*{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #333;
 }
 
-nav li {
-    display: inline-block;
-    margin-right: 20px;
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aaa;
 }
 
-nav a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    padding: 0 20px;
+.folha{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 800px;
+    height: 950px;
+    margin-top: 50px;
+    background-color: aliceblue;
 }
 
-nav a:hover {
-    background-color: #555;
+div{
+    width: 90%;
 }
 
-/* Bloco 2 - Estilos para a página A4 */
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
+.contatos{
+    display: flex;
+    flex-direction: row;
 }
 
-.page-container {
-    width: 21cm;
-    margin: 0 auto;
-    padding: 2cm;
-    background-color: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+.topo{
+    margin: 70px 0 0 70px;
 }
 
-/* Bloco 3 - Estilos para o conteúdo do currículo */
-.resume-content {
-    text-align: center;
+.corpo{
+    margin: 30px 0 0 70px;
 }
 
-td h1 {
-    text-align: left;
-}
-
-.resume-content table {
-    width: 100%;
-}
-
-.resume-content img {
-    max-width: 150px;
-}
-
-/* Bloco 4 - Estilos específicos para as seções */
-section {
+.objetivo{
     margin-bottom: 20px;
 }
 
-h2 {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
+.objetivo > h2 {
+    margin-bottom: 10px;
 }
 
-ul, ol {
-    list-style-position: inside;
-    padding-left: 20px;
+.formacao{
+    margin-bottom: 20px;
 }
 
-/* Bloco 5 - Estilos para o footer fora da página A4 */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    width: 100%;
+.formacao > h2 {
+    margin-bottom: 10px;
+}
+
+.experiencias{
+    margin-bottom: 20px;
+}
+
+.experiencias > h2 {
+    margin-bottom: 10px;
+}
+
+.habilidades{
+    margin-bottom: 20px;
+}
+
+.habilidades > h2 {
+    margin-bottom: 10px;
+}
+
+.linha{
+    width: 90%;
+    margin: 20px 0;
 }
